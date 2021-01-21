@@ -1,0 +1,12 @@
+input_dir: ../../Module/Sources/Resources/Assets/
+output_dir: ../../Module/Sources/Resources/Generated/
+
+xcassets:
+  inputs: ModuleAssets.xcassets
+  outputs:
+    templateName: swift5
+    output: Asset.generated.swift
+    params:
+      forceProvidesNamespaces: true
+      publicAccess: true
+      bundle: Bundle.main
